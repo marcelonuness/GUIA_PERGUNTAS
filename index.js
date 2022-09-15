@@ -69,8 +69,7 @@ app.get("/perguntar/:id", (req, res) => {
                     respostas: respostas
                 })
             })
-
-            
+                        
         } else {
             res.redirect("/")
         }
